@@ -51,7 +51,7 @@ int main(int argc, char const *argv[])
   return 0;
 }
 
-int circle_in_matriz(int x, int y, int r, int x0, int y0)
+int circlePointMembershipChecker(int x, int y, int r, int x0, int y0)
 {
   return sqrt(pow(x - x0, 2) + pow(y - y0, 2)) <= r;
 }
