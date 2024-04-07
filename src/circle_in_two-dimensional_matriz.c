@@ -24,6 +24,12 @@ int main(int argc, char const *argv[])
   int n = 51, m = 51, r = 10;
   int x0 = n / 2, y0 = m / 2;
 
+  if (n < r * 2 || m < r * 2)
+  {
+    printf("The circle does not fit in the matrix\n");
+    return 1;
+  }
+
   matriz = (int **)malloc(n * sizeof(int *));
 
   for (size_t i = 0; i < m; i++)
