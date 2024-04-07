@@ -41,7 +41,7 @@ int main(int argc, char const *argv[])
   {
     for (size_t j = 0; j < m; j++)
     {
-      matriz[i][j] = circle_in_matriz(i, j, r, x0, y0);
+      matriz[i][j] = circlePointMembershipChecker(i, j, r, x0, y0);
     }
   }
 
