@@ -21,33 +21,33 @@ int circlePointMembershipChecker(int x, int y, int r, int x0, int y0);
 int main(int argc, char const *argv[])
 {
   int **matriz;
-  int n = 51, m = 51, r = 10;
-  int x0 = n / 2, y0 = m / 2;
+  int x_axis = 51, y_axis = 51, r = 10;
+  int x0 = x_axis / 2, y0 = y_axis / 2;
 
-  if (n < r * 2 || m < r * 2)
+  if (x_axis < r * 2 || y_axis < r * 2)
   {
     printf("The circle does not fit in the matrix\n");
     return 1;
   }
 
-  matriz = (int **)malloc(n * sizeof(int *));
+  matriz = (int **)malloc(x_axis * sizeof(int *));
 
-  for (size_t i = 0; i < m; i++)
+  for (size_t i = 0; i < y_axis; i++)
   {
-    matriz[i] = (int *)malloc(m * sizeof(int));
+    matriz[i] = (int *)malloc(y_axis * sizeof(int));
   }
 
-  for (size_t i = 0; i < n; i++)
+  for (size_t i = 0; i < x_axis; i++)
   {
-    for (size_t j = 0; j < m; j++)
+    for (size_t j = 0; j < y_axis; j++)
     {
       matriz[i][j] = circlePointMembershipChecker(i, j, r, x0, y0);
     }
   }
 
-  for (size_t i = 0; i < n; i++)
+  for (size_t i = 0; i < x_axis; i++)
   {
-    for (size_t j = 0; j < m; j++)
+    for (size_t j = 0; j < y_axis; j++)
     {
       printf("%d ", matriz[i][j]);
     }
