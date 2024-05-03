@@ -1,4 +1,5 @@
 # 🍗 Cada questão vale uma coxinha para o primeiro a resolver 🍗
+*Válido até o final do período letivo de 2024.1*
 
 [BEE 1845](https://judge.beecrowd.com/pt/problems/view/1845) - Efílogo
 
