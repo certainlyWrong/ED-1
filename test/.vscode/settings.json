@@ -1,0 +1,9 @@
+{
+    "cmake.sourceDirectory": "/home/adri/ed_1/test",
+    "C_Cpp.default.compileCommands": "/home/adri/ed_1/test/build/compile_commands.json",
+    "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild",
+    "files.associations": {
+        "*.schema": "json",
+        "linked_list.h": "c"
+    }
+}
