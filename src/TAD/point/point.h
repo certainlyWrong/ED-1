@@ -1,4 +1,13 @@
-
+/**
+ * @file point.h
+ * @author Adriano R. de Sousa (adrianorodriguesdsousa@gmail.com)
+ * @brief This file contains the definition of the Point TAD.
+ * @version 0.1
+ * @date 2024-05-03
+ *
+ * @copyright Copyright (c) 2024
+ *
+ */
 
 #ifndef POINT_H
 #define POINT_H
