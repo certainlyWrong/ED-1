@@ -2,6 +2,7 @@
     "files.associations": {
         "*.schema": "json",
         "point.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "jpeglib.h": "c"
     }
 }
